@@ -10,7 +10,7 @@ The dataset is checked for missing values, and then the features and target vari
 A histogram is plotted to visualize the distribution of gold prices. Scatter plots are also used to visualize the relationship between actual and predicted gold prices.
 
 ### Model Training: 
-The Random Forest Regression model is trained on the training data, consisting of features (SPX, USO, SLV, EUR/USD) and target variable (GLD).
+The Random Forest Regression model is trained on the training data, by droping DATE as well as GLD Prices
 
 ### Model Prediction: 
 The trained model is used to predict gold prices on the test data.
